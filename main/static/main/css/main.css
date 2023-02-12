@@ -1,8 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
-
-
+/* MAIN PAGE */
 .bgimg{
     position: absolute;
     background-size: cover;
@@ -14,11 +13,11 @@
     font-size: 25px;
     position: absolute;
     text-align: center;
-    width: 1000px;
+    width: 1100px;
     height: 400px;
     display: flex;
     font-family: 'Oswald', sans-serif;
-    left: 377px;
+    left: 340px;
 
 }
 
@@ -46,15 +45,15 @@ a{
 }
 
 .index-main{
-    width: 1100px;
-    height: 450px;
+    width: 1400px;
+    height: 490px;
     position: absolute;
-    top: 200px;
+    top: 110px;
     color: white;
 }
 
 .main_h1{
-    left: 70px;
+    left: 650px;
     position: absolute;
     font-family: 'Oswald', sans-serif;
     ext-transform: uppercase;
@@ -83,23 +82,23 @@ a{
 
 
 .main_1_p{
-    left: 70px;
+    left: 180px;
     position: absolute;
     font-family: 'Oswald', sans-serif;
     color: white;
-    font-size: 20px;
-    top: 65px;
-    opacity: 0.92;
+    font-size: 22px;
+    top: 75px;
+    opacity: 0.96;
 }
 
 
 .img1{
-    left: 90px;
+    left: 130px;
     position: absolute;
     width: 500px;
     height 450px;
     border-radius: 15px;
-    top: 200px;
+    top: 250px;
     opacity: 0.8;
     transition: 1s opacity;
 }
@@ -110,12 +109,12 @@ a{
 }
 
 .img2{
-    left: 750px;
+    left: 850px;
     position: absolute;
     width: 500px;
     height 450px;
     border-radius: 15px;
-    top: 200px;
+    top: 250px;
     opacity: 0.8;
     transition: 1s opacity;
 }
@@ -123,4 +122,279 @@ a{
 .img2:hover{
     opacity: 1;
 
+}
+
+.text{
+    left: 550px;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 25px;
+    top: 570px;
+    opacity: 1;
+    text-align: center;
+}
+
+
+/* ABOUT ______________________________________________________________________________________ */
+
+.about_h1{
+    left: 550px;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    ext-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            white 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            white 90%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: white;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 50px;
+}
+@keyframes textclip {
+    to {
+    background-position: 200% center;
+    }
+}
+
+.about_p{
+    left: 130px;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 23px;
+    top: 75px;
+    opacity: 0.96;
+}
+
+.img_about{
+    left: 350px;
+    position: absolute;
+    width: 650px;
+    height 450px;
+    border-radius: 15px;
+    top: 210px;
+    opacity: 0.9;
+    transition: 1s opacity;
+}
+
+.img_about:hover{
+    opacity: 1;
+}
+
+
+/* CONTACT */
+
+.contact_h1{
+    left: 700px;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    ext-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            white 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            white 90%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: white;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 50px;
+}
+@keyframes textclip {
+    to {
+    background-position: 200% center;
+    }
+}
+
+.contact_p{
+    left: 500px;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 22px;
+    top: 75px;
+    opacity: 0.96;
+    text-align: center;
+}
+
+
+/* PORTFOLIO _________________________________________________________________________________*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+body{
+    width: 800px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+}
+
+.main_bar{
+    width: 1300px;
+    height: 650px;
+    background-color: burlywood;
+    position: relative;
+    top:110px;
+    left: 100px;
+    transform: scale(0.9);
+    border-radius: 20px;
+    background: linear-gradient(42deg, rgba(204, 225, 197, 0.159), rgba(50, 83, 124, 0.311));
+    transition: 1s transform, 1.5s box-shadow;
+    overflow: auto;
+}
+
+.main_bar:hover{
+    box-shadow: 1px 2px 3px 5px rgba(197, 170, 170, 0.736);
+    transform: scale(1.0);
+
+}
+
+.profile{
+    background-color: rgba(135, 135, 217, 0.229);
+    width: 300px;
+    height: 1100px;
+    position: absolute;
+}
+
+.avatar{
+    left: 40px;
+    transition: 1s;
+    position: relative;
+    width: 220px;
+    height: 220px;
+    position: relative;
+    background-size: 220;
+    top: 30px;
+    transform: scale(1);
+    border-radius: 50%
+
+
+}
+
+.avatar:hover{
+    border-radius: 30px;
+    transform: scale(1.0);
+
+}
+
+.username{
+
+    color: rgb(5, 1, 1);
+    position: relative;
+    transition: 2s;
+    animation: name 1s ease-in-out infinite;
+    margin: 30px;
+    font-family: 'Sevillana', cursive;
+    font-size: 35px;
+    top: 10px;
+    text-align: center;
+
+
+}
+.username:hover{
+    transform: scale(0.7);
+}
+
+.text_avatar{
+    position: relative;
+    margin: 0%;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    margin: 0;
+    background:rgba(62, 123, 245, 0);
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(46, 126, 217, 0.556);
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(239, 148, 68, 0.58);
+}
+::-webkit-scrollbar-track:hover{
+    background: rgba(255, 108, 108, 0);
+}
+
+/* Здесь стиль проектов _____________________________________________________________________*/
+
+.riki_img{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 15px;
+}
+
+
+.post_main{
+    position: relative;
+    height: 1100px;
+    width: 960px;
+    left: 300px;
+    background-color: rgba(147, 175, 226, 0.069);
+    text-align: center;
+}
+
+.riki_title{
+    margin:  0%;
+    font-size: 30px;
+    font-family: 'Sevillana', cursive;
+    top: 15px;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+.riki_text{
+    position: relative;
+    top: 15px;
+    margin: 0%;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.weather_img{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 30px;
+}
+
+
+.weather_title{
+    margin:  0%;
+    font-size: 30px;
+    font-family: 'Sevillana', cursive;
+    top: 44px;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+.weather_text{
+    position: relative;
+    top: 40px;
+    margin: 0%;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
